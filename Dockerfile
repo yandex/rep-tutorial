@@ -1,5 +1,6 @@
 FROM yandex/rep
 MAINTAINER Andrey Ustyuzhanin <anaderi@yandex-team.ru>
 
-# USER jupyter
-# RUN pip install hep_ml
+RUN /bin/bash --login -c " \
+  pip install hep_ml \
+"
