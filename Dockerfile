@@ -1,4 +1,4 @@
-FROM yandex/rep
+FROM yandex/rep:0.6.5
 MAINTAINER Andrey Ustyuzhanin <anaderi@yandex-team.ru>
 
 RUN /bin/bash --login -c " \
